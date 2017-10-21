@@ -10,6 +10,7 @@
     <unique-id>vsgm2eadbq4h</unique-id>
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
@@ -82,18 +83,81 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Apple" sid="573261038905332">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538075880282760" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\apel.png">
+                        <collision-poly>
+                            <point x="0.215339" y="0.20977" />
+                            <point x="0.5" y="0.0359195" />
+                            <point x="0.789086" y="0.20546" />
+                            <point x="0.969027" y="0.5" />
+                            <point x="0.848083" y="0.852012" />
+                            <point x="0.5" y="0.942529" />
+                            <point x="0.153392" y="0.850575" />
+                            <point x="0.0280236" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Orange" sid="507716207780018">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="256184731427005" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\oren.png">
+                        <collision-poly>
+                            <point x="0.128319" y="0.139423" />
+                            <point x="0.5" y="0.0400641" />
+                            <point x="0.876106" y="0.134615" />
+                            <point x="0.979351" y="0.5" />
+                            <point x="0.842183" y="0.828526" />
+                            <point x="0.5" y="0.972756" />
+                            <point x="0.160767" y="0.825321" />
+                            <point x="0.0221239" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="X" sid="453478000138403">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416612553209133" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\wrong.png">
+                        <collision-poly>
+                            <point x="0.216667" y="0.216667" />
+                            <point x="0.5" y="0.413333" />
+                            <point x="0.78" y="0.22" />
+                            <point x="0.586667" y="0.5" />
+                            <point x="0.783333" y="0.783333" />
+                            <point x="0.5" y="0.586667" />
+                            <point x="0.22" y="0.78" />
+                            <point x="0.413333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Function" sid="189966781306772">
+            <plugin id="Function" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Main.xml</layout>
         <layout>Map.xml</layout>
+        <layout>lv 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main.xml</event-sheet>
         <event-sheet>Map.xml</event-sheet>
+        <event-sheet>lv 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />
+        <global-instance type="Function" uid="10" />
     </global-instances>
     <sounds-folder />
     <music-folder />
