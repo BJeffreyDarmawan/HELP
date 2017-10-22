@@ -2,14 +2,5 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Map</name>
-    <events>
-        <event-block sid="355647772157111">
-            <conditions />
-            <actions>
-                <action id="-2" name="Go to layout" sid="977076541128159" type="System">
-                    <param id="0" name="Layout">Main</param>
-                </action>
-            </actions>
-        </event-block>
-    </events>
+    <events />
 </c2eventsheet>

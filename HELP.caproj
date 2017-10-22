@@ -10,6 +10,8 @@
     <unique-id>vsgm2eadbq4h</unique-id>
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -30,7 +32,7 @@
         <prop name="Clear background">Yes</prop>
         <prop name="Downscaling">Medium quality</prop>
         <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen in browser">Scale inner</prop>
         <prop name="Fullscreen scaling">High quality</prop>
         <prop name="Loader style">Construct 2 splash</prop>
         <prop name="Orientations">Any</prop>
@@ -42,6 +44,81 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
+        <object-folder name="Main Menu">
+            <object-type name="exitButton" sid="882054855215809">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="476083289995072" speed="5">
+                        <frame duration="1" hotspotX="0.445698" hotspotY="1.11152" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\MAIN MENU\exit_button.png">
+                            <collision-poly>
+                                <point x="0.00141044" y="0.591078" />
+                                <point x="0.444288" y="0.00371747" />
+                                <point x="0.997179" y="0.304833" />
+                                <point x="0.647391" y="0.996283" />
+                                <point x="0.242595" y="0.996283" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="loadButton" sid="503303963441712">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="849964804082082" speed="5">
+                        <frame duration="1" hotspotX="0.445698" hotspotY="1.11152" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\MAIN MENU\load_button.png">
+                            <collision-poly>
+                                <point x="0.00141044" y="0.591078" />
+                                <point x="0.444288" y="0.00371747" />
+                                <point x="0.997179" y="0.304833" />
+                                <point x="0.647391" y="0.996283" />
+                                <point x="0.242595" y="0.996283" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="startButton" sid="541836858904098">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132444333358666" speed="5">
+                        <frame duration="1" hotspotX="0.445698" hotspotY="1.11152" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\MAIN MENU\start_button.png">
+                            <collision-poly>
+                                <point x="0.00141044" y="0.591078" />
+                                <point x="0.444288" y="0.00371747" />
+                                <point x="0.997179" y="0.304833" />
+                                <point x="0.647391" y="0.996283" />
+                                <point x="0.242595" y="0.996283" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="background" sid="202738501039452">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834909968141853" speed="5">
+                        <frame duration="1" hotspotX="0.50042" hotspotY="0.5" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\MAIN MENU\BACKGROUND.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="cursor" sid="611886689700760">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="278835192669041" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Wilson Fransicius\Desktop\bahana_FP\DRIVE\MAIN MENU\cursor.png">
+                            <collision-poly>
+                                <point x="0.0416667" y="0.19802" />
+                                <point x="0.936275" y="0.804455" />
+                                <point x="0.767157" y="0.670792" />
+                                <point x="0.936275" y="0.94802" />
+                                <point x="0.507353" y="0.673267" />
+                                <point x="0.137255" y="0.670792" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
         </object-type>
@@ -105,81 +182,57 @@
         <object-type name="Function" sid="189966781306772">
             <plugin id="Function" />
         </object-type>
-        <object-type name="Sprite" sid="772524296138380">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="350430468677256" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\exit.png">
-                        <collision-poly>
-                            <point x="0.0396601" y="0.105263" />
-                            <point x="0.5" y="0" />
-                            <point x="0.96034" y="0.105263" />
-                            <point x="1" y="0.5" />
-                            <point x="0.96034" y="0.894737" />
-                            <point x="0.5" y="1" />
-                            <point x="0.0396601" y="0.894737" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
+        <object-type name="Browser" sid="847353749610305">
+            <plugin id="Browser" />
         </object-type>
-        <object-type name="Sprite2" sid="978311789939297">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="470984116375422" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\load.png">
-                        <collision-poly>
-                            <point x="0.0396601" y="0.105263" />
-                            <point x="0.5" y="0" />
-                            <point x="0.96034" y="0.105263" />
-                            <point x="1" y="0.5" />
-                            <point x="0.96034" y="0.894737" />
-                            <point x="0.5" y="1" />
-                            <point x="0.0396601" y="0.894737" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite3" sid="460296182295650">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="658261326448474" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\start.png">
-                        <collision-poly>
-                            <point x="0.0396601" y="0.105263" />
-                            <point x="0.5" y="0" />
-                            <point x="0.96034" y="0.105263" />
-                            <point x="1" y="0.5" />
-                            <point x="0.96034" y="0.894737" />
-                            <point x="0.5" y="1" />
-                            <point x="0.0396601" y="0.894737" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
+        <object-type name="Audio" sid="127994026024636">
+            <plugin id="Audio" />
         </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="mainmenuButtons" plugin-id="Sprite" sid="784078290341237">
+            <members>
+                <member>exitButton</member>
+                <member>loadButton</member>
+                <member>startButton</member>
+            </members>
+        </family>
+    </families>
     <layout-folder>
-        <layout>Main.xml</layout>
+        <layout>Main Menu.xml</layout>
         <layout>Map.xml</layout>
         <layout>lv 1.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Main.xml</event-sheet>
+        <event-sheet>Main Menu.xml</event-sheet>
         <event-sheet>Map.xml</event-sheet>
         <event-sheet>lv 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="1" />
         <global-instance type="Function" uid="10" />
+        <global-instance type="Browser" uid="20" />
+        <global-instance type="Audio" uid="21">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
-    <music-folder />
+    <music-folder>
+        <file name="bgm.ogg" />
+        <file name="glovebox_open.ogg" />
+        <file name="toolur_dettpp.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />
