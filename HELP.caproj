@@ -42,46 +42,8 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Sprite" sid="220004731841779">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="392083686033701" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\webprog\sem 3\apple\icon.png">
-                        <collision-poly>
-                            <point x="0.261719" y="0.261719" />
-                            <point x="0.5" y="0.175781" />
-                            <point x="0.75" y="0.25" />
-                            <point x="0.773438" y="0.5" />
-                            <point x="0.851563" y="0.851563" />
-                            <point x="0.5" y="0.960938" />
-                            <point x="0.171875" y="0.828125" />
-                            <point x="0.0976563" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Mouse" sid="491050109774132">
             <plugin id="Mouse" />
-        </object-type>
-        <object-type name="Sprite2" sid="295238298987687">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746420398111779" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\webprog\sem 3\apple\resources\images\apple_fruit.png">
-                        <collision-poly>
-                            <point x="0.25" y="0.25" />
-                            <point x="0.5" y="0.181452" />
-                            <point x="0.759409" y="0.240591" />
-                            <point x="0.891129" y="0.5" />
-                            <point x="0.768817" y="0.768817" />
-                            <point x="0.5" y="0.879032" />
-                            <point x="0.252688" y="0.747312" />
-                            <point x="0.150538" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="Apple" sid="573261038905332">
             <plugin id="Sprite" />
@@ -142,6 +104,63 @@
         </object-type>
         <object-type name="Function" sid="189966781306772">
             <plugin id="Function" />
+        </object-type>
+        <object-type name="Sprite" sid="772524296138380">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="350430468677256" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\exit.png">
+                        <collision-poly>
+                            <point x="0.0396601" y="0.105263" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96034" y="0.105263" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96034" y="0.894737" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0396601" y="0.894737" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="978311789939297">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="470984116375422" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\load.png">
+                        <collision-poly>
+                            <point x="0.0396601" y="0.105263" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96034" y="0.105263" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96034" y="0.894737" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0396601" y="0.894737" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="460296182295650">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="658261326448474" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Jeff_v2\COMP SCI\MM-HCI\rsources\start.png">
+                        <collision-poly>
+                            <point x="0.0396601" y="0.105263" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96034" y="0.105263" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96034" y="0.894737" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0396601" y="0.894737" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

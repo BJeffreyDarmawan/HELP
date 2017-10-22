@@ -35,64 +35,60 @@
         <event-block sid="275835582431228">
             <conditions>
                 <condition id="-3" name="Is on-screen" sid="969739378475705" type="X" />
-                <condition id="-14" name="Compare variable" sid="604221235437246" type="System">
-                    <param id="0" name="Variable">sprOp</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">100</param>
-                </condition>
             </conditions>
-            <actions>
-                <action id="0" name="Call function" sid="518001655680343" type="Function">
-                    <param id="0" name="Name">&quot;Destroy_X&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="552799090602706">
-            <conditions>
-                <condition id="0" name="On function" sid="511735917420532" type="Function">
-                    <param id="0" name="Name">&quot;Destroy_X&quot;</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="840746907879290" type="System">
-                    <param id="0" name="Variable">sprOp</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-                <condition id="-3" name="Is on-screen" sid="504162764635884" type="X" />
-            </conditions>
-            <actions>
-                <action id="-16" name="Set opacity" sid="472227820325015" type="X">
-                    <param id="0" name="Opacity">sprOp-5</param>
-                </action>
-                <action id="-9" name="Set value" sid="153526641754946" type="System">
-                    <param id="0" name="Variable">sprOp</param>
-                    <param id="1" name="Value">X.Opacity</param>
-                </action>
-                <action id="-16" name="Wait" sid="949948129404464" type="System">
-                    <param id="0" name="Seconds">0.1</param>
-                </action>
-                <action id="0" name="Call function" sid="336503124722141" type="Function">
-                    <param id="0" name="Name">&quot;Destroy_X&quot;</param>
-                    <param id="1" name="Parameter {n}"></param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="269987001537451">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="788563804932370" type="System">
-                    <param id="0" name="Variable">sprOp</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-                <condition id="-3" name="Is on-screen" sid="187496262470164" type="X" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="356787956075377" type="X" />
-                <action id="-9" name="Set value" sid="654909269929855" type="System">
-                    <param id="0" name="Variable">sprOp</param>
-                    <param id="1" name="Value">100</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="761314553479668">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="608289147660157" type="System">
+                            <param id="0" name="First value">X.Opacity</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="518001655680343" type="Function">
+                            <param id="0" name="Name">&quot;Destroy_X&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="268556392382640">
+                    <conditions>
+                        <condition id="0" name="On function" sid="899841462611564" type="Function">
+                            <param id="0" name="Name">&quot;Destroy_X&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="472227820325015" type="X">
+                            <param id="0" name="Opacity">X.Opacity-5</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="949948129404464" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="336503124722141" type="Function">
+                            <param id="0" name="Name">&quot;Destroy_X&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="630534077274992">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="943280965395608" type="System">
+                            <param id="0" name="First value">X.Opacity</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="356787956075377" type="X" />
+                        <action id="-9" name="Set value" sid="654909269929855" type="System">
+                            <param id="0" name="Variable">sprOp</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
